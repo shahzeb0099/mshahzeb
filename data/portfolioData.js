@@ -2,7 +2,7 @@
 
 export const data = {
   name: "Mohammad Shahzeb",
-  title: "Frontend Developer",
+  title: "Software Developer",
   bio: "I build clean, high-performance web applications using React, modern JavaScript, and scalable UI architectures. My focus is on delivering seamless, user-centric experiences backed by efficient state management and reliable API integrations.",
 
   email: "mohammadshazeb0449@gmail.com",
@@ -23,10 +23,6 @@ export const data = {
       "Tailwind CSS",
       "Material UI",
       "Chakra UI",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "AWS S3",
       "Git & GitHub",
       "Postman",
     ],
@@ -62,16 +58,26 @@ export const data = {
       description:
         "A full-featured admin dashboard for managing leads, roles, users, and credit card workflows.",
       detailedDescription: [
-        "Built complex dashboards with filtering, inline editing, CSV export, and role-based views.",
-        "Integrated backend APIs with reliable state flow using Redux Toolkit.",
+        "Yohesa Banking Software is a comprehensive admin platform designed to streamline digital banking operations.",
+        " The system enables administrators to manage user roles, employees, teams, and workflows efficiently.",
+        " It also supports credit card application processing for multiple banks, insurance management, and other financial service operations.",
+        "The platform is built to improve internal banking operations through centralized dashboards, secure role-based access control, and real-time data management.",
       ],
       responsibilities: [
-        "Developed key dashboard modules and dynamic form workflows.",
-        "Implemented role-based routing and secure access control.",
-        "Integrated AWS S3 for file/image uploads.",
+        "Integrated REST APIs across multiple modules (roles, employees, team management, credit card applications, etc.).",
+
+        "Developed reusable and responsive UI components using React.js.",
+
+        "Implemented form handling using React Hook Form and integrated validation logic.",
+
+        "Connected UI with backend services using Axios and managed state efficiently using Redux Toolkit.",
+
+        "Worked on data tables, filters, and dynamic UI updates to improve usability for bank admins.",
+
+        "Performed debugging, testing, and optimization to ensure smooth performance across modules.",
       ],
-      technologies: ["MERN", "Redux Toolkit", "AWS S3", "Tailwind CSS"],
-      liveUrl: "https://yohesa.in/public/",
+      technologies: ["MERN", "Redux Toolkit", "Tailwind CSS"],
+      liveUrl: "https://yohesa-test-three.vercel.app/",
       githubUrl: "#",
       imageUrl: "/image/yohesa.png",
     },
@@ -83,12 +89,17 @@ export const data = {
       description:
         "A multi-category property listing platform with user roles, authentication, and responsive UI.",
       detailedDescription: [
-        "Developed a responsive multi-role property listing UI using MERN stack.",
-        "Used Context API for authentication and multi-step form persistence.",
+        " Azown is a real estate marketplace where property owners and brokers can list up to seven different types of properties.",
+        " The platform enables users to create, manage, and browse property listings, helping buyers or renters find relevant real estate options with ease.",
       ],
       responsibilities: [
-        "Built core UI flows including listing, details, and category views.",
-        "Implemented state handling for multi-step property forms.",
+        " Developed the user interface using React.js, focusing on a clean, responsive, and user-friendly design.",
+
+        "Created reusable UI components for listing forms, property listings, and property detail views.",
+
+        "Integrated REST APIs to handle property data operations (create, read, update), allowing real-time interaction between frontend and backend.",
+
+        "Worked on data rendering logic and state management to provide a smooth user experience during property search and listings.",
       ],
       technologies: ["MERN", "Context API", "Tailwind CSS"],
       liveUrl: "https://azown.vercel.app/",
