@@ -142,7 +142,7 @@ export const data = {
     },
     {
       company: "AndroCoders",
-      role: "Frontend Developer (React.js)",
+      role: "Frontend Developer",
       duration: "Mar 2023 - Mar 2024",
       description: [
         "Developed responsive interfaces using Material UI, Chakra UI, and Tailwind CSS for multiple client applications.",
