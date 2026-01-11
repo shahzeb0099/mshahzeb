@@ -2,8 +2,8 @@
 
 export const data = {
   name: "Mohammad Shahzeb",
-  title: "Software Developer",
-  bio: "I build clean, high-performance web applications using React, modern JavaScript, and scalable UI architectures. My focus is on delivering seamless, user-centric experiences backed by efficient state management and reliable API integrations.",
+  title: "Frontend Software Engineer",
+  bio: "Frontend engineer with 2+ years of experience building scalable, production-grade web applications using React. I focus on clean UI architecture, maintainable state management, and delivering interfaces that are fast, reliable, and easy to use. I have hands-on experience working on admin dashboards, e-commerce platforms, and data-driven applications in real-world business environments.",
 
   email: "mohammadshazeb0449@gmail.com",
   github: "https://github.com/shahzeb0099",
@@ -12,17 +12,19 @@ export const data = {
 
   // ABOUT SECTION
   about: {
-    headline: "Turning Complex UI Challenges Into Seamless User Experiences.",
-    text: "With 2+ years of experience in frontend engineering, I specialize in building scalable React applications, admin dashboards, and complete e-commerce interfaces. I excel in component-driven architecture, clean state management, and delivering performant UIs that simplify workflows. I’m currently seeking opportunities where I can contribute to frontend architecture, collaborate with strong engineering teams, and build high-impact user interfaces.",
+    headline:
+      "Building Scalable Frontend Systems That Solve Real Business Problems",
+    text: "I am a frontend developer with over two years of professional experience working on enterprise dashboards, admin panels, and consumer-facing web applications. My strengths lie in building reusable component systems, managing complex application state, and translating business requirements into intuitive user interfaces. I enjoy working closely with designers and backend teams to ship features that are not only visually polished but also performant and maintainable. I am currently looking for frontend roles where I can take ownership of UI modules and contribute to long-term frontend architecture.",
     skills: [
       "React.js",
       "Redux Toolkit",
       "React Hook Form",
-      "TypeScript",
       "JavaScript (ES6+)",
+      "TypeScript (working knowledge)",
       "Tailwind CSS",
       "Material UI",
       "Chakra UI",
+      "REST APIs",
       "Git & GitHub",
       "Postman",
     ],
@@ -35,15 +37,17 @@ export const data = {
       title: "Leem E-Commerce UI",
       slug: "leem-ecommerce",
       description:
-        "Developed responsive PLP/PDP pages and reusable UI components for Leem, a leading GCC fashion e-commerce brand.",
+        "Frontend development for a large-scale fashion e-commerce platform serving customers across the GCC region.",
       detailedDescription: [
-        "Built a fully responsive product listing and detail interface using React.js with reusable component structures.",
-        "Implemented clean UI blocks (banners, cards, categories) optimized for performance across mobile and desktop.",
+        "Worked on product listing (PLP) and product detail pages (PDP) with a strong focus on responsiveness and performance.",
+        "Built reusable UI components such as product cards, banners, and category sections aligned with the brand design system.",
+        "Ensured consistent behavior and layout across mobile, tablet, and desktop breakpoints.",
       ],
       responsibilities: [
-        "Developed modular UI components aligned with design system.",
-        "Ensured responsive and accessible layouts for all breakpoints.",
-        "Collaborated with designers and backend team for accurate data rendering.",
+        "Developed reusable React components following a modular component structure.",
+        "Implemented responsive layouts using Tailwind CSS.",
+        "Collaborated with backend teams to consume APIs and render dynamic product data.",
+        "Focused on UI performance and clean component composition.",
       ],
       technologies: ["React.js", "Tailwind CSS", "Axios"],
       liveUrl: "https://www.leem.com",
@@ -53,30 +57,30 @@ export const data = {
 
     {
       id: 2,
-      title: "Yohesa Admin Panel",
+      title: "Yohesa Banking Admin Panel",
       slug: "yohesa-admin",
       description:
-        "A full-featured admin dashboard for managing leads, roles, users, and credit card workflows.",
+        "A comprehensive admin dashboard used for managing users, roles, teams, and financial workflows across multiple banking modules.",
       detailedDescription: [
-        "Yohesa Banking Software is a comprehensive admin platform designed to streamline digital banking operations.",
-        " The system enables administrators to manage user roles, employees, teams, and workflows efficiently.",
-        " It also supports credit card application processing for multiple banks, insurance management, and other financial service operations.",
-        "The platform is built to improve internal banking operations through centralized dashboards, secure role-based access control, and real-time data management.",
+        "Yohesa is an internal banking software designed to manage day-to-day administrative operations in a centralized system.",
+        "The platform supports role-based access control, employee management, credit card application workflows for multiple banks, and insurance-related modules.",
+        "The application is built to handle large datasets, complex forms, and frequent data updates in a secure environment.",
       ],
       responsibilities: [
-        "Integrated REST APIs across multiple modules (roles, employees, team management, credit card applications, etc.).",
-
-        "Developed reusable and responsive UI components using React.js.",
-
-        "Implemented form handling using React Hook Form and integrated validation logic.",
-
-        "Connected UI with backend services using Axios and managed state efficiently using Redux Toolkit.",
-
-        "Worked on data tables, filters, and dynamic UI updates to improve usability for bank admins.",
-
-        "Performed debugging, testing, and optimization to ensure smooth performance across modules.",
+        "Integrated REST APIs for multiple modules including roles, employees, teams, and credit card applications.",
+        "Built reusable and scalable UI components using React.js to support long-term feature growth.",
+        "Implemented complex forms and validations using React Hook Form.",
+        "Managed global and module-level state using Redux Toolkit.",
+        "Worked extensively with data tables, filters, pagination, and conditional rendering.",
+        "Debugged production issues and optimized UI behavior for better performance and usability.",
       ],
-      technologies: ["MERN", "Redux Toolkit", "Tailwind CSS"],
+      technologies: [
+        "React.js",
+        "Redux Toolkit",
+        "React Hook Form",
+        "Tailwind CSS",
+        "Axios",
+      ],
       liveUrl: "https://yohesa-test-three.vercel.app/",
       githubUrl: "#",
       imageUrl: "/image/yohesa.png",
@@ -87,21 +91,18 @@ export const data = {
       title: "AZOWN Property Platform",
       slug: "azown-property",
       description:
-        "A multi-category property listing platform with user roles, authentication, and responsive UI.",
+        "A real estate listing platform allowing owners and brokers to manage and publish multiple property types.",
       detailedDescription: [
-        " Azown is a real estate marketplace where property owners and brokers can list up to seven different types of properties.",
-        " The platform enables users to create, manage, and browse property listings, helping buyers or renters find relevant real estate options with ease.",
+        "Azown enables users to list, manage, and explore different categories of properties through a clean and responsive interface.",
+        "The platform supports authenticated user flows and dynamic property data rendering.",
       ],
       responsibilities: [
-        " Developed the user interface using React.js, focusing on a clean, responsive, and user-friendly design.",
-
-        "Created reusable UI components for listing forms, property listings, and property detail views.",
-
-        "Integrated REST APIs to handle property data operations (create, read, update), allowing real-time interaction between frontend and backend.",
-
-        "Worked on data rendering logic and state management to provide a smooth user experience during property search and listings.",
+        "Developed the frontend using React with a focus on clean UI and usability.",
+        "Created reusable components for property listings, forms, and detail views.",
+        "Integrated APIs to handle property CRUD operations.",
+        "Worked on state management and data rendering logic to ensure smooth user interactions.",
       ],
-      technologies: ["MERN", "Context API", "Tailwind CSS"],
+      technologies: ["React.js", "Context API", "Tailwind CSS"],
       liveUrl: "https://azown.vercel.app/",
       githubUrl: "#",
       imageUrl: "/image/azown1.png",
@@ -109,19 +110,19 @@ export const data = {
 
     {
       id: 4,
-      title: "Forever Store E-Commerce",
+      title: "Forever Store – MERN E-Commerce",
       slug: "forever-store",
       description:
-        "A personal MERN e-commerce project featuring product pages, cart system, and admin product management.",
+        "A personal full-stack e-commerce project built to strengthen understanding of end-to-end application flow.",
       detailedDescription: [
-        "Designed a clean shopping UI with category navigation, product filtering, and cart flow.",
-        "Implemented admin panel for product creation, editing, and media uploads.",
+        "Implemented user-facing shopping flows including product browsing, filtering, and cart management.",
+        "Built an admin interface for managing products and media uploads.",
       ],
       responsibilities: [
-        "Built full frontend pages for user shopping flows.",
-        "Integrated admin product CRUD with secure API calls.",
+        "Developed complete frontend UI using React and Tailwind CSS.",
+        "Integrated admin-side product management with backend APIs.",
       ],
-      technologies: ["MERN", "Tailwind CSS", "Vercel"],
+      technologies: ["MERN Stack", "Tailwind CSS", "Vercel"],
       liveUrl: "https://foreverfrontend-xi.vercel.app/",
       githubUrl: "#",
       imageUrl: "/image/forever.png",
@@ -132,12 +133,12 @@ export const data = {
   experience: [
     {
       company: "Tech Mahindra",
-      role: "Associate Software Engineer",
+      role: "Software Engineer",
       duration: "Mar 2024 - Present",
       description: [
-        "Developed and maintained UI modules and internal tools using React.js with reusable component architectures.",
-        "Improved API data workflows by collaborating with backend teams and optimizing integrations.",
-        "Enhanced internal dashboards by simplifying user interactions and reducing UI complexity.",
+        "Working on enterprise-grade frontend modules using React with a focus on maintainability and reusability.",
+        "Collaborating closely with backend teams to integrate APIs and handle real-world data workflows.",
+        "Improving internal dashboards by simplifying UI flows and reducing unnecessary complexity.",
       ],
     },
     {
@@ -145,9 +146,9 @@ export const data = {
       role: "Frontend Developer",
       duration: "Mar 2023 - Mar 2024",
       description: [
-        "Developed responsive interfaces using Material UI, Chakra UI, and Tailwind CSS for multiple client applications.",
-        "Built dynamic form flows and multi-step modules using React Hook Form.",
-        "Assisted with feature development, debugging, and UI enhancement under tight deadlines.",
+        "Built responsive user interfaces using Material UI, Chakra UI, and Tailwind CSS.",
+        "Developed dynamic and multi-step forms using React Hook Form.",
+        "Worked on feature development, bug fixes, and UI improvements across multiple client projects.",
       ],
     },
   ],
