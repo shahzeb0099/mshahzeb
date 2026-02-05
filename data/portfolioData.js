@@ -2,7 +2,7 @@
 
 export const data = {
   name: "Mohammad Shahzeb",
-  title: "Frontend Software Engineer",
+  title: "Frontend Engineer",
   bio: "Frontend engineer with 2+ years of experience building scalable, production-grade web applications using React. I focus on clean UI architecture, maintainable state management, and delivering interfaces that are fast, reliable, and easy to use. I have hands-on experience working on admin dashboards, e-commerce platforms, and data-driven applications in real-world business environments.",
 
   email: "mohammadshazeb0449@gmail.com",
@@ -20,7 +20,7 @@ export const data = {
       "Redux Toolkit",
       "React Hook Form",
       "JavaScript (ES6+)",
-      "TypeScript (working knowledge)",
+      "TypeScript",
       "Tailwind CSS",
       "Material UI",
       "Chakra UI",
