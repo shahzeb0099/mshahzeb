@@ -22,10 +22,6 @@ const About = () => {
               {data.about.text}
             </p>
             {/* NEW BORDER & TEXT: border-blue-400, text-gray-400 */}
-            <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-400">
-              The best code is not just functional, but also maintainable and a
-              joy to read.
-            </blockquote>
           </div>
 
           <div className="lg:w-1/2">
