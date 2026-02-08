@@ -27,6 +27,10 @@ const Contact = () => {
 
           {/* NEW TEXT COLOR: text-gray-400 */}
           <p className="text-gray-400">or find me here:</p>
+
+          <Button primary href={"/contact-us"}>
+            Contact Me
+          </Button>
         </div>
       </div>
     </section>
