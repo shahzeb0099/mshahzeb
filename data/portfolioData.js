@@ -8,7 +8,7 @@ export const data = {
   email: "mohammadshazeb0449@gmail.com",
   github: "https://github.com/shahzeb0099",
   linkedin: "https://www.linkedin.com/in/mohammad-shahzeb-888s77/",
-  portfolio: "https://mshahzeb.vercel.app/",
+  portfolio: "https://moshahzeb.vercel.app/",
 
   // ABOUT SECTION
   about: {

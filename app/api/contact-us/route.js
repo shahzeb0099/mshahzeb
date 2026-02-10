@@ -19,8 +19,8 @@ export async function POST(request) {
       port: 465,
       secure: true,
       auth: {
-        user: "mshahzeb1905050100043@gmail.com",
-        pass: "rbpfhwdjtumghskm",
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
 
@@ -95,8 +95,8 @@ export async function POST(request) {
 `;
 
     await transporter.sendMail({
-      from: `"Service Request" <mshahzeb1905050100043@gmail.com>`,
-      to: "mshahzeb1905050100043@gmail.com",
+      from: `"Service Request" <${process.env.EMAIL_USER}>`,
+      to: process.env.EMAIL_USER,
       subject: subject,
       html: html,
     });
