@@ -19,6 +19,7 @@ export const data = {
       "React.js",
       "Redux Toolkit",
       "React Hook Form",
+      "Next.js",
       "JavaScript (ES6+)",
       "TypeScript",
       "Tailwind CSS",

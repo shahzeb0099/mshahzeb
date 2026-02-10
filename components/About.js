@@ -2,6 +2,21 @@
 import { data } from "@/data/portfolioData";
 
 const About = () => {
+  const skillIcons = {
+    "React.js": "react",
+    "Redux Toolkit": "redux",
+    "React Hook Form": "react",
+    "Next.js": "nextjs",
+    "JavaScript (ES6+)": "javascript",
+    TypeScript: "typescript",
+    "Tailwind CSS": "tailwindcss",
+    "Material UI": "materialui",
+    "Chakra UI": "chakraui",
+    "REST APIs": "nodejs",
+    "Git & GitHub": "git",
+    Postman: "postman",
+  };
+
   return (
     // NEW BG: bg-gray-800
     <section id="about" className="py-20 bg-gray-800">
@@ -25,19 +40,29 @@ const About = () => {
           </div>
 
           <div className="lg:w-1/2">
-            {/* NEW TEXT COLOR: text-white */}
-            <h3 className="text-2xl font-semibold text-white mb-4">
+            <h3 className="text-2xl font-semibold text-white mb-6">
               My Core Technologies
             </h3>
-            {/* NEW TEXT COLOR: text-gray-300, accent blue-400 */}
-            <ul className="grid grid-cols-2 gap-4 text-lg text-gray-300">
+
+            <div className="grid grid-cols-3 sm:grid-cols-4 gap-6">
               {data.about.skills.map((skill, index) => (
-                <li key={index} className="flex items-center space-x-2">
-                  <span className="text-blue-400 font-bold">✓</span>
-                  <span>{skill}</span>
-                </li>
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center
+                   bg-gray-700/40 rounded-xl p-4
+                   hover:bg-gray-700 transition"
+                >
+                  <img
+                    src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skillIcons[skill]}/${skillIcons[skill]}-original.svg`}
+                    alt={skill}
+                    className="w-10 h-10 mb-2"
+                  />
+                  <span className="text-sm text-gray-300 text-center">
+                    {skill}
+                  </span>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
       </div>
