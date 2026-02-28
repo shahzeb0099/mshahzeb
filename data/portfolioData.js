@@ -89,6 +89,33 @@ export const data = {
 
     {
       id: 3,
+      title: "R2R Care | Multi-Tenant Healthcare SaaS",
+      slug: "r2r-care",
+      description:
+        "Multi-tenant healthcare SaaS for managing patients, caregivers, scheduling, visits, and automated billing.",
+      detailedDescription: [
+        "R2R Care is a multi-tenant healthcare SaaS platform enabling care agencies to manage clients, caregivers, shifts, visits, tasks, medications, and billing with strict tenant isolation.",
+        "The platform supports dynamic data rendering, role-based access control, and a responsive design to accommodate various user roles and workflows.",
+      ],
+      responsibilities: [
+        "Developed the frontend using React with a focus on clean UI and usability.",
+        "Created reusable components for patient management, scheduling, and billing modules.",
+        "Integrated APIs to handle CRUD operations for patients, caregivers, shifts, visits, and billing.",
+        "Worked on state management and data rendering logic to ensure smooth user interactions across different modules.",
+        "Collaborated with backend teams to consume APIs and render dynamic data.",
+      ],
+      technologies: [
+        "React.js",
+        "React Hook Form",
+        "Tailwind CSS",
+        "React Redux",
+      ],
+      liveUrl: "https://r2rcare.co.uk/",
+      githubUrl: "#",
+      imageUrl: "/image/r2rcare.png",
+    },
+    {
+      id: 4,
       title: "AZOWN Property Platform",
       slug: "azown-property",
       description:
@@ -110,7 +137,7 @@ export const data = {
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Forever Store – MERN E-Commerce",
       slug: "forever-store",
       description:
@@ -134,7 +161,7 @@ export const data = {
   experience: [
     {
       company: "Tech Mahindra",
-      role: "Software Engineer",
+      role: "Associate Software Engineer",
       duration: "Mar 2024 - Present",
       description: [
         "Working on enterprise-grade frontend modules using React with a focus on maintainability and reusability.",
